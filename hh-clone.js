@@ -1,11 +1,7 @@
 const links = [
   {
     label: "Instagram",
-    href: "https://www.instagram.com/madu0__0?igsh=ZnNnMW45YXVhaHA3&utm_source=qr",
-  },
-  {
-    label: "GitHub",
-    href: "https://github.com/Mvdu12",
+    href: "https://www.instagram.com/mvdu0_0",
   },
   {
     label: "SnapChat",
@@ -14,6 +10,10 @@ const links = [
   {
     label: "Mail",
     href: "mailto:mohd12abdu@gamil.com",
+  },
+  {
+    label: "GitHub",
+    href: "https://github.com/Mvdu12",
   },
 ];
 
