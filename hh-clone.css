@@ -20,6 +20,14 @@ body {
   background-size: cover;
 }
 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .page {
   width: min(100%, 1140px);
   margin: 0 auto;
@@ -31,6 +39,7 @@ body {
 }
 
 .image-container {
+  text-align: center;
   width: 100%;
 }
 
@@ -55,7 +64,7 @@ body {
 }
 
 .link {
-  min-width: 50%;
+  min-width: 50% !important;
   max-width: 560px;
   width: 100%;
   border: 0;
@@ -83,25 +92,29 @@ body {
 }
 
 @media (min-width: 576px) {
-  .page {
-    width: min(100%, 540px);
+  .container {
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .page {
-    width: min(100%, 720px);
+  .container {
+    max-width: 720px;
+  }
+
+  .link {
+    width: 100%;
   }
 }
 
 @media (min-width: 992px) {
-  .page {
-    width: min(100%, 960px);
+  .container {
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .page {
-    width: min(100%, 1140px);
+  .container {
+    max-width: 1140px;
   }
 }
