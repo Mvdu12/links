@@ -15,6 +15,14 @@ const links = [
     label: "GitHub",
     href: "https://github.com/Mvdu12",
   },
+  {
+    label: "Linkedin",
+    href: "www.linkedin.com/in/madu12",
+  },
+  {
+    label: "Discord",
+    href: "https://discordapp.com/users/830460987785347122",
+  },
 ];
 
 const linksRoot = document.getElementById("social-links");
